@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_my_int",
+						"type": "uint256"
+					}
+				],
+				"name": "my_func",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "my_int",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"New/A2.sol": "MyContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"New/A2.sol": {
+			"keccak256": "0xfa0dae1b9ed72fe3a5558e98d5604a8dcad5e043fd3ca58900b23a9f88c2da36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db9566bceeb064064d5325e9b3b85f77df2ef2587287441ea1a9557840afa878",
+				"dweb:/ipfs/QmYhhdDwvtReAJXfLgdoJwRZLu2XXG1zFMdMv3NAhr6p1F"
+			]
+		}
+	},
+	"version": 1
+}

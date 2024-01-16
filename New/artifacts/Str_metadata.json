@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "addToStr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "my_str",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"New/A5.sol": "Str"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"New/A5.sol": {
+			"keccak256": "0x4a020871cbb97ee4e20894ac9e385fa2d85fb4b504ddf56714a6f34baa1226bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1b0db20511e91e6820bb3d2d713c42fde67641393ad9a67bbbc8bbe56c280647",
+				"dweb:/ipfs/Qme6NkWbzFzNYwYsohtg81fwXYwefhQMXm6Xnyn1LN3iEF"
+			]
+		}
+	},
+	"version": 1
+}
