@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "People",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "addPeople",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPeople",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameOfPerson",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"New2/A4.sol": "AddFive"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"New2/A1.sol": {
+			"keccak256": "0x30be1acad742ad21a2f5fccce92750c3be7dd2bdff91d055774fec5072e1b337",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ec495325839a8bd0bec1a1747715f146da274f621864f89f3e8003872c76b4b",
+				"dweb:/ipfs/QmVydwFAgPCpvF985E1r7Kcdtrga77E3JAgBwXst47Tj1e"
+			]
+		},
+		"New2/A4.sol": {
+			"keccak256": "0x9335d6f76aacfe0563fb17d1c3cbfbb325afe62c47c6e86832ff1c20d72231f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5593d54606452c66c4a3c750f6d15efcc809191c436e8100a3e01364b37a31cc",
+				"dweb:/ipfs/QmeRcCe5ogcm9Kj2Rc8PCaFz61BLzhsCijZ3fgDB5CAbp6"
+			]
+		}
+	},
+	"version": 1
+}
