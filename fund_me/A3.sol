@@ -2,11 +2,15 @@
 pragma solidity ^0.8.18;
 
 import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
-contract FundMeA2{
+contract FundMeA3{
     uint256 public min_USD = 5 * 1e18;
+    address[] public sender_Adresses;
+    mapping(address => uint256) public address_to_amount;
 
     function fund() public payable{
-        require(msg.value > min_USD, "ETH not enough");
+        require(getConvertion(msg.value) > min_USD, "ETH not enough");
+        sender_Adresses.push(msg.sender);
+        address_to_amount[msg.sender] = address_to_amount[msg.sender] + msg.value;
     }
 
     // function withdraw() public{}
