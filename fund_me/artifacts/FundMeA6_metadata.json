@@ -32,38 +32,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ETH_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConvertion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "min_USD",
 				"outputs": [
@@ -94,6 +62,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -109,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"fund_me/A5.sol": "FundMeA3"
+			"fund_me/A6.sol": "FundMeA6"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -131,12 +106,20 @@
 				"dweb:/ipfs/QmTa99QHrJBn3SXDizquPBUiTxVCNKQrHgaWJhuds5Sce2"
 			]
 		},
-		"fund_me/A5.sol": {
-			"keccak256": "0xcdd76e3e07da638d4b4a5ed148cbfd73e3df64f97b9432dbc582341bcf1c9ddc",
+		"fund_me/A4_price_converter_library.sol": {
+			"keccak256": "0x7eb7c15d8d323daaa0718aa19f270806ba7b9fac7f4c1e1d23eb88167b018e19",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://60fb4d6c644346e6d42086c3f2d3736f5ba31eac6b60eeaf0fbf7dbda2484fa0",
-				"dweb:/ipfs/QmWTTkmG9uf7usXyB8DCKeDQM3cXGPtP4gFohWxuBgJXCe"
+				"bzz-raw://adab2fe1474f00be05f80267e440e563d523024d008419524842eed5f5401d44",
+				"dweb:/ipfs/QmNcUBWSPCLjM8bdi9jDNTQVP2XyMZTRMpGkBE4W4LokWD"
+			]
+		},
+		"fund_me/A6.sol": {
+			"keccak256": "0x581e9672ee652ec0cec032467231ae33bdc7650ac3216d5ddd6173bdc06bdec3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e087c3d989d471cde5087c41807bc17b4526b6bab269bdcb9a1a1b08263e20f9",
+				"dweb:/ipfs/QmNTfoFe1FQHgZ2wWATxdNsi3z7TsDcq8ZCch5ou5Y3yem"
 			]
 		}
 	},
