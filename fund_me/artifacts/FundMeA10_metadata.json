@@ -11,6 +11,34 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "EthNotEnough",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MustBeOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "SendingFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MIN_USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -38,20 +66,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "min_USD",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -87,6 +102,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -102,7 +121,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"fund_me/A9.sol": "FundMeA8"
+			"fund_me/A11.sol": "FundMeA10"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -124,20 +143,20 @@
 				"dweb:/ipfs/QmTa99QHrJBn3SXDizquPBUiTxVCNKQrHgaWJhuds5Sce2"
 			]
 		},
+		"fund_me/A11.sol": {
+			"keccak256": "0xc6f5d2e654168be77f3a0eeca8a9f6b7f424b393b7f2a91ec32af878b1118777",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bf3f36f2b7e51077c4d6c09174947acdb1a80319c01bc0a69a75cdb2f0cb688",
+				"dweb:/ipfs/QmUKB5XhF3HYFfczzBuHEVUviRitnggvczHYW6yMQDdjdN"
+			]
+		},
 		"fund_me/A4_price_converter_library.sol": {
 			"keccak256": "0x7eb7c15d8d323daaa0718aa19f270806ba7b9fac7f4c1e1d23eb88167b018e19",
 			"license": "MIT",
 			"urls": [
 				"bzz-raw://adab2fe1474f00be05f80267e440e563d523024d008419524842eed5f5401d44",
 				"dweb:/ipfs/QmNcUBWSPCLjM8bdi9jDNTQVP2XyMZTRMpGkBE4W4LokWD"
-			]
-		},
-		"fund_me/A9.sol": {
-			"keccak256": "0x7fe3a1dc10146bff12770d6b32fe5d930b69e3c5d4b27e38116ff14d0a4e4f1e",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://f42e4bcca1ae49fcac207e8203bc68dc46296045bdea04cad96a713a45d2d198",
-				"dweb:/ipfs/QmV2G7STNWGNA8PKXsprz8NRjaCujpwP3kFC2U4YApUNQS"
 			]
 		}
 	},

@@ -11,6 +11,34 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "EthNotEnough",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MustBeOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "SendingFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MIN_USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -38,20 +66,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "min_USD",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -102,7 +117,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"fund_me/A9.sol": "FundMeA8"
+			"fund_me/A9.sol": "FundMeA9"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -133,11 +148,11 @@
 			]
 		},
 		"fund_me/A9.sol": {
-			"keccak256": "0x7fe3a1dc10146bff12770d6b32fe5d930b69e3c5d4b27e38116ff14d0a4e4f1e",
+			"keccak256": "0x6b19e8ebe63066532752f11e951ebb0540a912624d134465549126854ab0150f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f42e4bcca1ae49fcac207e8203bc68dc46296045bdea04cad96a713a45d2d198",
-				"dweb:/ipfs/QmV2G7STNWGNA8PKXsprz8NRjaCujpwP3kFC2U4YApUNQS"
+				"bzz-raw://2bd6f014f31ad1684592298f1225dad0823a8b9acf9703c7112f7edc16f29169",
+				"dweb:/ipfs/QmZRYKxzUSkhJt834YqBVfj7EP1E49e18kGuxirpRmMiFe"
 			]
 		}
 	},
